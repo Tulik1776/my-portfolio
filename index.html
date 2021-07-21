@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./imgs/favicon_io">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon_io">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon_io">
+    <link rel="manifest" href="./imgs/favicon_io">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="change_color-box" id="demo3">
+        <button class="action_btn" onclick="changeIcon()"><i class="fas fa-angle-right right_icon" id="demo1"></i><i
+                class="fas fa-angle-left left_icon" id="demo2"></i></button>
+        <p>Change Version</p>
+        <div><button class="change_btn" onclick="changeBackround2()">Light</button><button class="change_btn"
+                onclick="changeBackround1()">Dark</button></div>
+    </div>
+    <header class="site_header" id="header_demo">
+        <div class="container-fluid">
+            <button class="site_header-btn d-xl-none d-lg-none" onclick="Func()"><i class="fas fa-bars"></i></button>
+            <div class="row">
+                <div class="col-xl-6 col-lg-4  site_header-logo_col">
+                    <h2 class="site_header-logo">folio.</h2>
+                </div>
+                <div class="col-xl-6 col-lg-8 d-none d-xl-block d-lg-block  site_header-list_col">
+                    <ul class="site_header-list">
+                        <li class="site_header-item"><a href="#" class="site_header-link" id="link_demo">creative
+                                demos</a></li>
+                        <li class="site_header-item"><a href="#" class="site_header-link" id="link_demo">pages</a></li>
+                        <li class="site_header-item"><a href="#" class="site_header-link" id="link_demo">about me.</a>
+                        </li>
+                        <li class="site_header-item"><a href="#" class="site_header-link" id="link_demo">contact.</a>
+                        </li>
+                        <li class="site_header-item"><a href="#" class="site_header-link" id="link_demo">support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="teggle_box d-xl-none d-lg-none" id="teggle_box">
+            <div class="container">
+                <div class="teggle_box-in">
+                    <h3>folio.</h3>
+                    <button class="teggle_btn" onclick="Func1()"><i class="fas fa-times"></i></button>
+                </div>
+                <ul class="site_header-list teggle_box-list">
+                    <li class="site_header-item teggle_box-item"><a href="#"
+                            class="site_header-link teggle_box-link">creative demos</a></li>
+                    <li class="site_header-item teggle_box-item"><a href="#"
+                            class="site_header-link teggle_box-link">pages</a></li>
+                    <li class="site_header-item teggle_box-item"><a href="#"
+                            class="site_header-link teggle_box-link">about me.</a></li>
+                    <li class="site_header-item teggle_box-item"><a href="#"
+                            class="site_header-link teggle_box-link">contact.</a></li>
+                    <li class="site_header-item teggle_box-item"><a href="#"
+                            class="site_header-link teggle_box-link">support</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 main_section-text_col">
+                    <p class="main_section-text">ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER</p>
+                    <h2 class="main_section-title" id="text_color">I design digital crafts for clients.</h2>
+                    <button class="main_section-btn">Explore works</button>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 main_section-img_col">
+                    <img src="./imgs/Folio_files/portrait-1-4db518f05f5503adba2bdd0803e1352e.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="imgs_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 imgs_section-col">
+                    <ul class="imgs_section-list">
+                        <li class="imgs_section-item"><a href="#" class="imgs_section-link active">ALL WORKS</a></li>
+                        <li class="imgs_section-item"><a href="#" class="imgs_section-link">BRANDING</a></li>
+                        <li class="imgs_section-item"><a href="#" class="imgs_section-link">UX DESIGN</a></li>
+                        <li class="imgs_section-item"><a href="#" class="imgs_section-link">PHOTOGRAPHY</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-6  col-12 imgs_section-img_col">
+                    <div class="imgs_section-grid_img">
+                        <img src="./imgs/Folio_files/portfolio-mas-8-a45866d7e9bb3dc06310712b519af3e5.jpg" alt="">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-7-29890d2222dd7f2254b7bdb1259a68fa.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-4-d00ebecfe1a4d35cfe572f92e9fbe620.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-3-087560f17d2c9d21ddb1ace5c6f27e43.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-1-a76455dce3c781476311509f77ffc935.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-4-d00ebecfe1a4d35cfe572f92e9fbe620.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-14-9ca42783ead6ad412af44aaae70b1ef9.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-13-a894fe5b4c87fb481f0f5ca5e8b87852.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6  col-12 imgs_section-img_col1">
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-6-bfe4da5d826b659e9f826d84e9443404.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-5-d251fa7b2a63339757c4f6efb532c721.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-15-d92fbd169ac0d4bcb5b1bf4e0082c627.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-16-b000c7677657a2c1763849c6468b7b38.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-12-df74abd272b2ad2155f5f1b5841a693e.jpg" alt="">
+                    </div>
+                    <div class="imgs_section-grid_img">
+                        <div class="hover_imgs" id="hover_demo">
+                            <p>Web</p>
+                            <h3>Perfumed</h3>
+                        </div>
+                        <img src="./imgs/Folio_files/portfolio-mas-11-c7750cfc9ee28ff03f4e6067cb3d20a4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 last_section-col">
+                    <p>AVAILABLE FOR FREELANCE PROJECTS</p>
+                    <h1>Do you have illustration <br> project? Let's talk.</h1>
+                    <button class="lats_btn">Let's talk now</button>
+                </div>
+            </div>
+            <div class="col-12 footer_col">
+                <p>© 2020 All right reseved</p>
+            </div>
+        </div>
+    </section>
+    <script src=" ./js/index.js"></script>
+</body>
+
+</html>
