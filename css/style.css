@@ -156,7 +156,7 @@ body {
     color: rgb(22, 28, 45);
 }
 .main_section-btn{
-    width: 40%;
+    width: 250px;
     margin-top: 60px;
     padding: 20px;
     outline: none;
@@ -356,6 +356,12 @@ body {
         width: 250px;
     }
 }
+@media(max-width:576px){
+    .imgs_section-img_col1,.imgs_section-img_col{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
 .change_color-box{
     width: 180px;
     height: 120px;
@@ -363,7 +369,7 @@ body {
     border-bottom-left-radius: 30px;
     position: fixed;
     top: 50%;
-    right: -12%;
+    right: -180px;
     z-index: 200;
     transform: translateY(-50%);
     color: white;
@@ -391,9 +397,10 @@ body {
    
     border-bottom-left-radius:20px;
     border-top-left-radius: 20px;
+    background-color: violet;
 }
 .change_color-box .change_btn:nth-last-of-type(1){
-    background-color: violet;
+   
     border-bottom-right-radius:20px;
     border-top-right-radius: 20px;
 }
