@@ -1,20 +1,20 @@
 function Func(){
     let a=document.getElementById("teggle_box");
     let body=document.body;
-    if( a.style.right="-100%")
+    if( a.style.right="-400px")
        {
         a.style.right="0";
         a.style.backgroundColor="rgb(206, 187, 187)"
        }
     else if( a.style.right="0")
-        a.style.right="-100%";
+        a.style.right="-400px";
 }
 function Func1(){
     let b=document.getElementById("teggle_box");
     let body=document.body;
     if( b.style.right="0")
        {
-        b.style.right="-100%";
+        b.style.right="-400px";
        }
 }
 
