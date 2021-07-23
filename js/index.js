@@ -4,7 +4,7 @@ function Func(){
     if( a.style.right="-400px")
        {
         a.style.right="0";
-        a.style.backgroundColor="rgb(206, 187, 187)"
+        a.style.backgroundColor="#29231f"
        }
     else if( a.style.right="0")
         a.style.right="-400px";

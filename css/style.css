@@ -78,7 +78,7 @@ body {
   .teggle_box {
     width: 400px;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: #29231f;
     position: absolute;
     right: -400px;
     top: 0;
@@ -112,7 +112,14 @@ body {
     border: none;
     background: none;
   }
-
+  .teggle_box-in h3{
+    color: white;
+    opacity: 0.8;
+  }
+.teggle_box-link{
+    color: white;
+    opacity: 0.8;
+}
   .teggle_btn i {
     font-size: 22px;
   }
